@@ -4,7 +4,7 @@ from clf import predict
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-st.title("Qure.ai Image Classification - v0")
+st.title("Image Classification - v0")
 st.write("")
 
 file_up = st.file_uploader("Upload an image", type="jpg")
